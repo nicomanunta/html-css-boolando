@@ -119,6 +119,18 @@ h6{
 .sostenibilità{
     background-color: green;
 }
+.visto{
+    display: block;
+}
+.nascosto{
+    display: none;
+}
+.col-1:hover .nascosto{
+    display: block;
+}
+.col-1:hover .visto{
+    display: none;
+}
     
 /* } FOOTER */
 .container-footer{
