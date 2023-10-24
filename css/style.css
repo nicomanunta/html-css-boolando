@@ -27,6 +27,7 @@ body{
     display: flex;
     position: fixed;
     padding: 12px 140px;
+    z-index: 1;
    
     
     
@@ -130,6 +131,20 @@ h6{
 }
 .col-1:hover .visto{
     display: none;
+}
+.col-1{
+    position: relative;
+}
+.cuore{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px 10px;
+}
+.cuore:hover{
+    color: red;
 }
     
 /* } FOOTER */
