@@ -86,3 +86,22 @@ img{
     width: 100%;
     height: 100%;
 }
+.marca{
+    font-size: 10px;
+}
+h6{
+    font-size: 13px;
+    
+}
+.prezzo-rosso, .prezzo-sbarrato{
+    font-size: 10px;
+    line-height: 0px;
+}
+.prezzo-rosso{
+    color: red;
+}
+.prezzo-sbarrato{
+
+    text-decoration: line-through;
+    color: grey;
+}
